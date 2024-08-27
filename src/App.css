@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-container {
+  display: flex;
+  height: 100vh;
+}
+
+.task-container {
+  background-color: #131213;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.tags-container {
+  background-color: #000000;
+  width: 60vw;
+  padding: 20px;
+}
+
+.task-heading {
+  font-family: Roboto;
+  color: #f3aa4e;
+  text-align: center;
+  font-size: 40px;
+}
+
+.label {
+  font-family: Roboto;
+  color: #f1f5f9;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.input {
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: ##64748b;
+}
+
+.select-container {
+  font-family: Roboto;
+  color: #475569;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding: 10px;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button {
+  background-color: #f3aa4e;
+  color: #ffffff;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: Roboto;
+  font-weight: bold;
+  width: 200px;
+}
+
+.tag-heading {
+  font-family: Roboto;
+  color: #ffffff;
+  padding-top: 15px;
+}
+
+.no-tasks-container {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.no-tasks {
+  font-family: Roboto;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.my-tasks-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1a171d;
+  padding: 10px;
+  margin: 10px;
+}
+
+.para {
+  color: #ffffff;
+  font-family: Roboto;
+}
+
+.mytasks-para {
+  background-color: #f3aa4e;
+  color: #1a171d;
+  font-family: Roboto;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 25px;
+  width: 150px;
+  text-align: center;
+}
+
+.tags {
+  display: flex;
+  margin-right: 10px;
+}

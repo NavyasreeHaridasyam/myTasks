@@ -1,0 +1,17 @@
+.tag-button {
+  color: #f8f8f8;
+  padding: 10px;
+  font-family: Roboto;
+  font-weight: bold;
+  border-radius: 20px;
+  border: 1px solid #f8f8f8;
+  margin-right: 20px;
+}
+
+.orange {
+  background-color: #f3aa4e;
+}
+
+.transparent {
+  background-color: transparent;
+}
